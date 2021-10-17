@@ -11,7 +11,7 @@ const webDev = {
     frame: "HTML",
     style: "CSS",
      logic: "JavaScript"
-}
+    }
 
 // 2) Create an object named pizza with a property named crust.
 // Set the crust value to "thin". Add a method named setCrust
@@ -66,7 +66,7 @@ const actors = [
     { name: "Leonardo", movie: "The Wolf of Wall Street" },
     { name: "Sigourney", movie: "Alien" },
     { name: "Jeff", movie: "The Big Lebowski" },
-  ];
+];
   function introduceTheActors(actorArray) {
     let arrayToReturn = [];
     for (let i of actorArray) {
@@ -86,7 +86,7 @@ let toPrint = introduceTheActors(actors);
 for (let i of toPrint) {
     console.log(i);
 }
-  ///////// Do not change the above array of objects /////////
+///////// Do not change the above array of objects /////////
   
   // 5) Create an object named techCompanies that has the following
   // key-value pairs:
@@ -104,8 +104,8 @@ for (let i of toPrint) {
     Apple: "Steve Jobs",
     founderLookup: function(companyName) {
     return this[companyName];
-    }
-    }
+}
+}
     console.log(techCompanies);
     console.log(techCompanies.founderLookup("Microsoft"));
   
@@ -120,10 +120,10 @@ for (let i of toPrint) {
     Object.values(object).forEach(value => {
     if(typeof value != "function") {
     arr.push(value);
-    }
-    });
+}
+});
     return arr;
-    }
+}
     console.log(storeFounders(techCompanies));
   
   // 7) Create a function named goToSecondClass that accepts
@@ -138,12 +138,12 @@ for (let i of toPrint) {
 
   function goToSecondClass(object) {
     return `Time to go to ${object.secondHour} class!`;
-    }
+}
     const myClasses = {
     firstHour: "Ethics",
     secondHour: "Programming",
     thirdHour: "Biology"
-    };
+};
     console.log(goToSecondClass(myClasses));
 
   ////////// Don't change the above object
@@ -158,8 +158,8 @@ for (let i of toPrint) {
     this.slices = 8,
     this.taste = function() {
     return "Wow!";
-    }
-    }
+}
+}
     console.log(new pie());
     console.log(new pie().taste());
   /////
@@ -178,7 +178,7 @@ for (let i of toPrint) {
     this.flavor = "blueberry";
     this.taste = function() {
     return "Delicious!";
-    }
-    }
+}
+}
     console.log(new blueBerryPie());
     console.log(new blueBerryPie().taste());
